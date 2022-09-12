@@ -16,7 +16,7 @@ npm install -g nwlink
 make
 ```
 
-You should now have a `target/voord.nwa` file that you can distribute! Anyone can now install it on their calculator from the [NumWorks online uploader](https://my.numworks.com/apps).
+You should now have a `target/text-app.nwa` file that you can distribute! Anyone can now install it on their calculator from the [NumWorks online uploader](https://my.numworks.com/apps).
 
 ## Run the app locally
 
