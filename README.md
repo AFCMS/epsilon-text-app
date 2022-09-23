@@ -26,6 +26,8 @@ rm -fr target && make
 
 You should now have a `target/text-app.nwa` file that you can distribute! Anyone can now install it on their calculator from the [NumWorks online uploader](https://my.numworks.com/apps).
 
+If just want to test the app without recompiling it with your own text, you can download the `text-app.nwa` file from the [build artifacts](https://github.com/AFCMS/epsilon-text-app/actions/workflows/build.yml). 
+
 ## Run the app locally
 
 To run the app on your development machine, you can use the following command
