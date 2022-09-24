@@ -1,4 +1,27 @@
 
 // DO NOT MODIFY BY HAND
 
-const char* text = "Hello hello :)\nThis app is great isn't it?\n\na(x-α)-β\n\n- stuff 1\n- stuff 2\n- stuff 3\n- stuff 4\n\n1)\n2)\n3)\n4)\n5)\n6)\n";
+const char* text[100] = {
+        "Hello hello :)",
+        "This app is great isn't it?",
+        "",
+        "a(x-α)-β",
+        "",
+        "- stuff 1",
+        "- stuff 2",
+        "- stuff 3",
+        "- stuff 4",
+        "",
+        "1)",
+        "2)",
+        "3)",
+        "4)",
+        "5)",
+        "6)",
+        "7)",
+        "8)",
+        "",
+        "---------------------------------------------",
+        "----------- Made By AFCM in 2022 ------------",
+        "---------------------------------------------",
+};

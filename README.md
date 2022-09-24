@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/AFCMS/epsilon-text-app/actions/workflows/build.yml/badge.svg)](https://github.com/AFCMS/epsilon-text-app/actions/workflows/build.yml)
 
-This is a C++ app to display text on a [NumWorks calculator](https://www.numworks.com).
+This is a C++ app to display text with scrolling on a [NumWorks calculator](https://www.numworks.com).
 
 The code is derivated from the [official numworks sample app](https://github.com/numworks/epsilon-sample-app-cpp);
 
@@ -11,6 +11,8 @@ The code is derivated from the [official numworks sample app](https://github.com
 Run `update_text.py file.txt` to change the app text with the text in `file.txt`.
 
 The script will fail if the text have lines that will overflow the numworks's window.
+
+You will need to clean the build (`make clean`) if you have already build the aplication.
 
 ## Build the app
 
@@ -23,6 +25,8 @@ rm -fr target && make
 ```
 
 You should now have a `target/text-app.nwa` file that you can distribute! Anyone can now install it on their calculator from the [NumWorks online uploader](https://my.numworks.com/apps).
+
+If just want to test the app without recompiling it with your own text, you can download the `text-app.nwa` file from the [build artifacts](https://github.com/AFCMS/epsilon-text-app/actions/workflows/build.yml). 
 
 ## Run the app locally
 
